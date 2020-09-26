@@ -1,0 +1,143 @@
+.footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #282828;
+    padding: 20px;
+}
+
+
+.footer__left {
+    flex: 0.30;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer__albumLogo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.footer__green {
+    color: #1ed15e;
+}
+
+.footer__songInfo > h4 {
+    margin-bottom: 5px;
+}
+
+.footer__songInfo > p {
+    font-size: 12px;
+}
+
+.footer__center {
+    flex: 0.4;
+    padding: 0 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.footer__icon:hover,
+.footer__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+    cursor: pointer;
+}
+
+.footer__right {
+    flex: 0.30;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.footer__rightIcons {
+    margin-top: 15px;
+}
+
+.footer__right * .MuiSlider-root {
+    color: lightgray;
+    min-width: 50px;
+    max-width: 400px;
+}
+
+.footer__right * .MuiSlider-root:hover {
+    color: #1ed15e;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer__left {
+        flex: 0.34;
+    }
+
+    .footer__center {
+        flex: 0.35;
+        padding: 0 40px;
+    }
+
+    .footer__songInfo{
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .footer__albumLogo{
+        height: 45px;
+        width: 45px;
+        margin-right: 10px;
+    }
+    .footer__songInfo{
+        font-size: 80%;
+        height: 110%;
+    }
+    .footer__songInfo > h4{
+        margin-bottom: 3px;
+    }
+
+    .footer__center {
+        flex: 0.3;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer__left {
+        flex: 0.2;
+    }
+    
+    .footer__albumLogo {
+        height: 60px;
+        width: 60px;
+        margin-left: 5px;
+    }
+    
+    .footer__songInfo { 
+        display: none;
+    }
+
+    .footer__center {
+        flex: 0.4;
+    }
+
+    .footer__right {
+        flex: 0.4;
+        margin-top: 5px;
+        display: flex;
+    }
+
+    .footer__rightIcons {
+        display: none;
+    }
+}
