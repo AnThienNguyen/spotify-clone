@@ -4,7 +4,7 @@ This clone is built with React and the Spotify API. The objective of this projec
 
 Users can log in with spotify authentication and their playlists and songs will be loaded into the player.  
 
-Checkout the [Live Demo](https://clone-eb991.web.app/)
+Checkout the [Live Demo](https://spotify-clone-e2cf6.web.app/)
 
 ![Homepage](images/audioPlayer.JPG)
 
