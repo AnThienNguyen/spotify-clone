@@ -1,6 +1,6 @@
 # Spotify Clone
 
-This clone is built with React and the Spotify API. The objective of this project is to recreate the Spotify web player with data fetched from the Spotify web API. 
+This audio player is built with React and the Spotify API. The objective of this project is to recreate the Spotify web player with data fetched from the Spotify web API. 
 
 Users can log in with spotify authentication and their playlists and songs will be loaded into the player. The site uses react context api to share information about the user, playlists, and audio.
 
