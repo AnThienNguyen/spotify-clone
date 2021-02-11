@@ -4,6 +4,7 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientID = "";
 
+// Replace with your app's url
 const redirectUri = "https://spotify-clone-e2cf6.web.app/";
 
 const scopes = [
@@ -11,8 +12,10 @@ const scopes = [
   "user-read-recently-played",
   "user-read-playback-state",
   "user-top-read",
+  "user-modify-playback-state",
 ];
 
+// grab access token from url
 export const getTokenFromUrl = () => {
     return window.location.hash
         .substring(1)
