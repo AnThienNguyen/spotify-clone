@@ -1,4 +1,4 @@
-# Spotify Clone
+# Web Audio Player
 
 This audio player is built with React and the Spotify API. The objective of this project is to recreate the Spotify web player with data fetched from the Spotify web API. 
 
